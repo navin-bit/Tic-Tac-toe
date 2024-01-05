@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: rgb(221, 32, 70);
+    text-align: center;
+  
+    
+}
+.con{
+
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin
+    
+}
+.box{
+    cursor: pointer;
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 15vmin;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    
+}
+#Reset{
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+
+}
+
+#newgame{
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+.hide{
+    display: none;
+}
