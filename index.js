@@ -24,7 +24,7 @@ let winpattern = [
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
 
-        console.log("box clicked");
+       
         if (turn0) {
 
             box.innerText = "O";
